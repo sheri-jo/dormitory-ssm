@@ -1,0 +1,78 @@
+2020-07-24 11:23:47,431 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 11:23:49,842 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2409 ms
+2020-07-24 11:24:14,277 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 11:24:15,017 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 735 ms
+2020-07-24 11:24:29,210 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for POST /addUser
+2020-07-24 11:26:19,970 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 11:26:21,887 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1914 ms
+2020-07-24 11:26:30,044 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 11:26:30,710 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 665 ms
+2020-07-24 11:30:23,399 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 11:30:25,794 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2393 ms
+2020-07-24 11:30:32,323 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 11:30:32,976 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 652 ms
+2020-07-24 11:32:53,824 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 11:32:55,812 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1986 ms
+2020-07-24 11:33:05,127 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 11:33:05,861 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 733 ms
+2020-07-24 11:33:05,868 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /favicon.ico
+2020-07-24 11:35:04,528 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 11:35:06,061 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1531 ms
+2020-07-24 11:35:21,616 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 11:35:22,265 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 647 ms
+2020-07-24 15:01:38,185 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:01:40,158 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1950 ms
+2020-07-24 15:01:56,653 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:01:57,450 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 789 ms
+2020-07-24 15:06:48,085 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:06:50,372 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2285 ms
+2020-07-24 15:06:59,641 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:07:00,275 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 632 ms
+2020-07-24 15:07:08,375 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /favicon.ico
+2020-07-24 15:11:37,908 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:11:39,643 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1733 ms
+2020-07-24 15:11:45,611 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:11:46,281 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 669 ms
+2020-07-24 15:18:37,468 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:18:39,162 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1691 ms
+2020-07-24 15:18:46,947 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:18:47,573 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 624 ms
+2020-07-24 15:22:32,681 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:22:34,217 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1526 ms
+2020-07-24 15:22:41,282 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:22:42,242 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 959 ms
+2020-07-24 15:24:10,240 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /favicon.ico
+2020-07-24 15:35:42,254 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:35:43,855 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1599 ms
+2020-07-24 15:35:48,115 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:35:48,856 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 737 ms
+2020-07-24 15:51:34,135 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:51:35,876 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1739 ms
+2020-07-24 15:51:42,098 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:51:42,862 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 762 ms
+2020-07-24 15:51:48,500 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /success
+2020-07-24 15:52:55,207 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:52:56,853 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1644 ms
+2020-07-24 15:53:06,196 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:53:06,942 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 744 ms
+2020-07-24 15:56:59,048 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:57:01,739 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2689 ms
+2020-07-24 15:57:09,638 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:57:10,385 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 745 ms
+2020-07-24 15:59:11,493 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 15:59:14,269 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2775 ms
+2020-07-24 15:59:25,861 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 15:59:26,458 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 596 ms
+2020-07-24 16:01:57,111 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 16:01:58,896 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 1782 ms
+2020-07-24 16:02:08,879 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 16:02:09,777 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 896 ms
+2020-07-24 16:02:09,785 WARN[org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /favicon.ico
+2020-07-24 16:55:33,154 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 16:55:36,223 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 3067 ms
+2020-07-24 16:55:51,306 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 16:55:52,385 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 1079 ms
+2020-07-24 17:02:04,632 INFO[org.springframework.web.context.ContextLoader:270] - Root WebApplicationContext: initialization started
+2020-07-24 17:02:07,009 INFO[org.springframework.web.context.ContextLoader:306] - Root WebApplicationContext initialized in 2369 ms
+2020-07-24 17:02:12,379 INFO[org.springframework.web.servlet.DispatcherServlet:524] - Initializing Servlet 'springmvc'
+2020-07-24 17:02:13,165 INFO[org.springframework.web.servlet.DispatcherServlet:546] - Completed initialization in 785 ms

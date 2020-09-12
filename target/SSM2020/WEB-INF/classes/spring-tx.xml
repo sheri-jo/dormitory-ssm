@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <!--声明事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置事务特性-->
+    <!--常见的事务特性-->
+    <!--
+       常见事务属性：
+        REQUIRED :支持当前的事务，如果不存在就创建一个新的。这是最常用的选择。
+        SUPPORTS :支持当前的事务，如果不存在就不使用事务。
+        MANDATORY :支持当前的事务，如果不存在就抛出异常。
+        REQUIRES_NEW :创建一个新的事务，并暂停当前的事务（如果存在）。
+        NOT_SUPPORTED :不使用事务，并暂停当前的事务（如果存在）。
+        NEVER :不使用事务，如果当前存在事务就抛出异常。
+        NESTED:如果当前存在事务就作为嵌入事务执行，否则与PROPAGATION_REQUIRED类似。
+        readOnly：表示该方法是只读的，而不能更新数据库里的数据
+    -->
+    <!--配置事务特性-->
+    <tx:advice transaction-manager="transactionManager" id="tx">
+        <tx:attributes>
+            <tx:method name="insert*" propagation="REQUIRED" />
+            <tx:method name="save*" propagation="REQUIRED" />
+            <tx:method name="update*" propagation="REQUIRED" />
+            <tx:method name="delete*" propagation="REQUIRED" />
+            <tx:method name="do*" propagation="REQUIRED" />
+            <tx:method name="get*" read-only="true" />
+            <tx:method name="find*" read-only="true" />
+            <tx:method name="list*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置切面关系-->
+    <aop:config>
+        <!--拦截业务类-->
+        <aop:pointcut id="txcut" expression="execution(* net.togogo.service.*Service.*(..))"/>
+        <!--将拦截的业务类交给切面管理-->
+        <aop:advisor advice-ref="tx" pointcut-ref="txcut"/>
+    </aop:config>
+
+
+</beans>
